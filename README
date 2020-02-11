@@ -1,0 +1,12 @@
+Le programme a été réalisé par les étudiants:
+- PHAM Duc-Chinh (n° étudiant: u21406698), groupe 1
+- CAMARA Mahamadou (n° étudiant: u21420202), groupe 1
+
+Le programme, dans son ensemble, fonctionne. Cependant quelques points sont à relever:
+- La fonction affichant le fichier SVG en ASCII contient des erreurs:
+	l'image affichée est compactée et n'affiche ni les images .jpg, ni les textes,
+- La fonction "dégrouper" fonctionne uniquement s'il est sauvegardé directement, il y a un "Segmentation fault"
+	s'il est utilisé entre-temps
+- Les options n'ont pas été testées (excepté pour -i et -o) et la saisie n'est pas sécurisée
+
+Pour le reste, tout semble fonctionnel.
